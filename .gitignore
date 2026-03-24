@@ -1,0 +1,33 @@
+# Dependências — instale com: npm install (dentro de frontend/)
+node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.swp
+*.swo
+*~
+.vscode/
+
+# Executável do servidor (obtido com o professor, não versionado)
+mesh_server/mesh_server.exe
+mesh_server/mesh_server
+
+# Nota: mesh.wasm, mesh.js e opencascade.wasm.wasm em frontend/public/
+# são INTENCIONALMENTE versionados neste repositório (binários pré-compilados).
